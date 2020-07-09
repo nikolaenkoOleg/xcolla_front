@@ -202,7 +202,7 @@ const renderCards = (data) => {
     bookmarkBlock.classList.add('card__bookmark');
     if (state.bookmarks.includes(event.id)) {
       const bookmarkFlag = document.createElement('img');
-      bookmarkFlag.setAttribute('src', '/src/img/flag.png');
+      bookmarkFlag.setAttribute('src', '/docs/img/flag.png');
       bookmarkFlag.setAttribute('alt', 'boookmark-img');
       bookmarkBlock.append(bookmarkFlag);
     }
