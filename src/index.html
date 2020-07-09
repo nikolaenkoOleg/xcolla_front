@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Events</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="events">
+      <div class="content">
+        <h1 class="title">Event Listing</h1>
+        <form class="search-form">
+          <label for="city" class="search-form__label">City:</label>
+          <select name="city" id="city" class="search-form__select">
+            <option value="all" class="search-form__select-option">All</option>
+            <option value="Rim" class="search-form__select-option">Rim</option>
+            <option value="Berlin" class="search-form__select-option">Berlin</option>
+            <option value="Sr.Petersburg" class="search-form__select-option">Sr.Petersburg</option>
+            <option value="Amsterdam" class="search-form__select-option">Amsterdam</option>
+          </select>
+
+          <label for="month" class="search-form__label">Month:</label>
+          <select name="month" id="month" class="search-form__select" id="month-selector">
+            <option value="all" class="search-form__select-option">All</option>
+            <option value="September" class="search-form__select-option">September</option>
+            <option value="November" class="search-form__select-option">November</option>
+            <option value="June" class="search-form__select-option">June</option>
+            <option value="February" class="search-form__select-option">February</option>
+            <option value="May" class="search-form__select-option">May</option>
+          </select>
+        </form>
+        <div class="events-list">
+          <h2 class="empty">No events available :(</h2>
+
+          <!-- <div class="card">
+            <div class="card__id">
+              <p class="card__id-text">1</p>
+            </div>
+            <div class="card__bookmark">
+              <img src="/src/img/flag.png" alt="bookmark">
+            </div>
+            <h3 class="card__title">Rave Autumn</h3>
+            <img src="https://cdn3.xsolla.com/files/uploaded/113250/9ddae28837d2e4217e5c2e99bbd6f3a0.jpeg"
+            alt="card-img" class="card__img">
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
